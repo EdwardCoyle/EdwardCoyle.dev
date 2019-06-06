@@ -1,0 +1,17 @@
+body {
+  color: #eee;
+  background-color: #16131e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+.masthead h1 {
+  line-height: 80%;
+}
