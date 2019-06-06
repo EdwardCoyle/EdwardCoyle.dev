@@ -12,6 +12,12 @@ h6 {
   color: #fff;
 }
 
+.masthead {
+  margin-top: 6vh;
+  text-align: center;
+}
+
 .masthead h1 {
   line-height: 80%;
+  box-shadow: 0 0 5px 1px #000;
 }
