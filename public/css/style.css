@@ -24,3 +24,13 @@ h6 {
   font-size: 6vh;
   text-shadow: 0 0 5px #000;
 }
+
+.masthead--bullets {
+  color: #fff;
+  font-size: 4vh;
+}
+
+.masthead--bullets span:not(:last-child)::after {
+  color: inherit;
+  content: '•';
+}
