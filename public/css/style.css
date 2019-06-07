@@ -1,6 +1,8 @@
 body {
-  color: #eee;
   background-color: #16131e;
+  color: #eee;
+  font-family: 'Quicksand', sans-serif;
+  /*font-family: 'Didact Gothic', sans-serif;*/
 }
 
 h1,
@@ -12,6 +14,12 @@ h6 {
   color: #fff;
 }
 
+.main {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
 .masthead {
   margin-top: 6vh;
   text-align: center;
@@ -19,5 +27,16 @@ h6 {
 
 .masthead h1 {
   line-height: 80%;
-  box-shadow: 0 0 5px 1px #000;
+  font-size: 6vh;
+  text-shadow: 0 0 5px #000;
+}
+
+.masthead--bullets {
+  color: #fff;
+  font-size: 4vh;
+}
+
+.masthead--bullets span:not(:last-child)::after {
+  color: inherit;
+  content: '•';
 }
