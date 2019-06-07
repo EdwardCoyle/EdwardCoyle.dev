@@ -21,5 +21,6 @@ h6 {
 
 .masthead h1 {
   line-height: 80%;
+  font-size: 6vh;
   text-shadow: 0 0 5px #000;
 }
