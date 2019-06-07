@@ -1,6 +1,8 @@
 body {
-  color: #eee;
   background-color: #16131e;
+  color: #eee;
+  font-family: 'Quicksand', sans-serif;
+  /*font-family: 'Didact Gothic', sans-serif;*/
 }
 
 h1,
@@ -19,5 +21,5 @@ h6 {
 
 .masthead h1 {
   line-height: 80%;
-  box-shadow: 0 0 5px 1px #000;
+  text-shadow: 0 0 5px #000;
 }
