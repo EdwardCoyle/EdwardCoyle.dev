@@ -38,5 +38,6 @@ h6 {
 
 .masthead--bullets span:not(:last-child)::after {
   color: inherit;
-  content: '•';
+  content: ' •';
+  pointer-events: none;
 }
