@@ -1,3 +1,10 @@
+// Header Vars
+$header-font-color: #fff;
+
+// Body Vars
+$body-font-color: #fff;
+
+// Main Styles
 body {
   background-color: #16131e;
   color: #eee;
@@ -11,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #fff;
+  color: $header-font-color;
 }
 
 .main {
@@ -23,21 +30,21 @@ h6 {
 .masthead {
   margin-top: 6vh;
   text-align: center;
-}
 
-.masthead h1 {
-  line-height: 40%;
-  font-size: 8vh;
-  text-shadow: 0 0 5px #000;
+  h1 {
+    line-height: 40%;
+    font-size: 8vh;
+    text-shadow: 0 0 5px #000;
+  }
 }
 
 .masthead--bullets {
-  color: #fff;
+  color: $header-font-color;
   font-size: 4vh;
-}
 
-.masthead--bullets span:not(:last-child)::after {
-  color: inherit;
-  content: ' •';
-  pointer-events: none;
+  span:not(:last-child)::after {
+    color: inherit;
+    content: ' •';
+    pointer-events: none;
+  }
 }

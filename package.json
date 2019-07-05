@@ -1,0 +1,38 @@
+{
+  "name": "edwardcoyle.github.io",
+  "version": "0.0.1",
+  "description": "The source code for the EdwardCoyle.dev website",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npx next build",
+    "deploy": "./scripts/deploy.sh",
+    "dev": "npx next",
+    "export": "npx next export",
+    "start": "npx next start",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwardCoyle/EdwardCoyle.github.io.git"
+  },
+  "keywords": [
+    "website",
+    "next.js",
+    "react",
+    "scss",
+    "animation",
+    "personal"
+  ],
+  "author": "Edward Coyle <edcoyle86@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdwardCoyle/EdwardCoyle.github.io/issues"
+  },
+  "homepage": "https://github.com/EdwardCoyle/EdwardCoyle.github.io#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^8.1.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
