@@ -1,0 +1,43 @@
+body {
+  background-color: #16131e;
+  color: #eee;
+  font-family: 'Quicksand', sans-serif;
+  /*font-family: 'Didact Gothic', sans-serif;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+.main {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.masthead {
+  margin-top: 6vh;
+  text-align: center;
+}
+
+.masthead h1 {
+  line-height: 40%;
+  font-size: 8vh;
+  text-shadow: 0 0 5px #000;
+}
+
+.masthead--bullets {
+  color: #fff;
+  font-size: 4vh;
+}
+
+.masthead--bullets span:not(:last-child)::after {
+  color: inherit;
+  content: ' •';
+  pointer-events: none;
+}
