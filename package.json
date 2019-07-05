@@ -8,7 +8,7 @@
     "deploy": "./scripts/deploy.sh",
     "dev": "npx next",
     "export": "npx next export",
-    "start": "npx next start",
+    "start": "npx next start"
   },
   "repository": {
     "type": "git",
