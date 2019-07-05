@@ -29,8 +29,8 @@ rm -rf node_modules/.cache
 && npx next export
 && touch out/.nojekyll
 && touch out/CNAME
-&& mkdir out/public
-&& cp -r public/* out/public/
+&& mkdir out/static
+&& cp -r public/* out/static/
 && echo \"edwardcoyle.dev\" >> out/CNAME
 && git add out/
 && git commit \"Deploy `/out` folder at ${GIT_BRANCH} to `gh-pages` branch\"
