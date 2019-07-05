@@ -2,8 +2,7 @@
 body {
   background-color: #16131e;
   color: #eee;
-  font-family: 'Quicksand', sans-serif;
-  /*font-family: 'Didact Gothic', sans-serif;*/ }
+  font-family: 'Quicksand', sans-serif; }
 
 h1,
 h2,
@@ -27,11 +26,11 @@ h6 {
     text-shadow: 0 0 5px #000; }
 
 .masthead--bullets {
-  color: #fff;
+  color: #eee;
   font-size: 4vh; }
   .masthead--bullets span:not(:last-child)::after {
     color: inherit;
-    content: ' \2022';
+    content: ' \2022   ';
     pointer-events: none; }
 
 
