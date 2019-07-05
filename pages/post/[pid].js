@@ -1,10 +1,11 @@
+import '../../src/styles.scss';
 import { useRouter } from 'next/router';
 
 const Post = () => {
   const router = useRouter;
-  const { pid } = router.query;
+  const { slug } = router.query;
 
-  return <p>Post: {pid}</p>
+  return <p>Post: {slug}</p>
 }
 
 export default Post;

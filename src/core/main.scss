@@ -1,0 +1,27 @@
+.main {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.masthead {
+  margin-top: 6vh;
+  text-align: center;
+
+  h1 {
+    line-height: 40%;
+    font-size: 8vh;
+    text-shadow: 0 0 5px $header-text-shadow-color;
+  }
+}
+
+.masthead--bullets {
+  color: $body-font-color;
+  font-size: 4vh;
+
+  span:not(:last-child)::after {
+    color: inherit;
+    content: ' • ';
+    pointer-events: none;
+  }
+}
