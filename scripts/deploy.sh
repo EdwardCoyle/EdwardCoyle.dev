@@ -25,13 +25,13 @@ function parse_git_hash() {
 GIT_BRANCH=$(parse_git_branch)$(parse_git_hash)
 
 rm -rf node_modules/.cache
-&& npx next build
-&& npx next export
-&& touch out/.nojekyll
-&& touch out/CNAME
-&& mkdir out/static
-&& cp -r public/* out/static/
-&& echo \"edwardcoyle.dev\" >> out/CNAME
-&& git add out/
-&& git commit \"Deploy `/out` folder at ${GIT_BRANCH} to `gh-pages` branch\"
-&& git subtree push --prefix out origin gh-pages
+npx next build
+npx next export
+touch out/.nojekyll
+touch out/CNAME
+mkdir out/static
+cp -r public/* out/static/
+echo \"edwardcoyle.dev\" >> out/CNAME
+git add out/
+git commit \"Deploy `/out` folder at ${GIT_BRANCH} to `gh-pages` branch\"
+git subtree push --prefix out origin gh-pages
