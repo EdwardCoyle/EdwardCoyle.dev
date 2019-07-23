@@ -5,6 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "build": "npx next build",
+    "clean": "npx rimraf .next/",
+    "copy:modules": "node ./scripts/copy-modules",
     "deploy": "./scripts/deploy.sh",
     "dev": "npx next",
     "export": "npx next export",
@@ -30,9 +32,15 @@
   "homepage": "https://github.com/EdwardCoyle/EdwardCoyle.github.io#readme",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "imagemin-svgo": "^7.0.0",
     "next": "^8.1.0",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.5.3",
     "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "rimraf": "^2.6.3",
+    "sass-prefix-mixins": "^1.0.2"
   }
 }
