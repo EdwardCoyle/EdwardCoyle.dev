@@ -1,0 +1,174 @@
+.bg {
+  fill: #eee;
+}
+
+.frame path {
+  fill: #000;
+}
+
+.frames > * {
+  opacity: 0;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+}
+
+@-webkit-keyframes frames-1 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes frames-1 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+}
+@-o-keyframes frames-1 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+}
+@keyframes frames-1 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+}
+
+.frames > :nth-child(1) {
+  -webkit-animation-name: frames-1;
+  -moz-animation-name: frames-1;
+  -o-animation-name: frames-1;
+  animation-name: frames-1;
+}
+
+@-webkit-keyframes frames-2 {
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes frames-2 {
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@-o-keyframes frames-2 {
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes frames-2 {
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.frames > :nth-child(2) {
+  -webkit-animation-name: frames-2;
+  -moz-animation-name: frames-2;
+  -o-animation-name: frames-2;
+  animation-name: frames-2;
+}
+
+@-webkit-keyframes frames-3 {
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes frames-3 {
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+@-o-keyframes frames-3 {
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes frames-3 {
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+
+.frames > :nth-child(3) {
+  -webkit-animation-name: frames-3;
+  -moz-animation-name: frames-3;
+  -o-animation-name: frames-3;
+  animation-name: frames-3;
+}
+
+@-webkit-keyframes frames-4 {
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes frames-4 {
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes frames-4 {
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes frames-4 {
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.frames > :nth-child(4) {
+  -webkit-animation-name: frames-4;
+  -moz-animation-name: frames-4;
+  -o-animation-name: frames-4;
+  animation-name: frames-4;
+}

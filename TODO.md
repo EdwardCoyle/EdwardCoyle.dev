@@ -19,3 +19,4 @@
   - Netlify
   - Firebase
   - AWS/Azure
+- Replace all hardcoded URLs for lambda pages to get the basepath programatically (currently hardcoded to http://localhost:3000)

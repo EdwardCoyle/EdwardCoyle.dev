@@ -4,14 +4,14 @@ import ReactMarkdown from 'react-markdown';
 import PageLayout from '../src/components/site-layouts/page';
 
 // Import `about.md`
-import { default as content } from '../src/content/about.md';
+import { default as content } from '../src/content/projects.md';
 
-const About = () => {
+const Projects = () => {
   return (
-    <PageLayout pageTitle="About">
+    <PageLayout pageTitle="Projects">
       <ReactMarkdown source={content} />
     </PageLayout>
   );
 };
 
-export default About;
+export default Projects;
