@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": 0,
+      "name": "my-very-first-post",
+      "title": "My Very First Post"
+    },
+    {
+      "id": 1,
+      "name": "yet-another-great-post",
+      "title": "Yet Another Great Post"
+    },
+    {
+      "id": 2,
+      "name": "an-additional-exceptional-post",
+      "title": "An Additional, Exceptional Post"
+    },
+    {
+      "id": 3,
+      "name": "exquisite-post",
+      "title": "Exquisite Post"
+    },
+    {
+      "id": 4,
+      "name": "intriguing-post",
+      "title": "Intriguing Post"
+    }
+  ]
+}

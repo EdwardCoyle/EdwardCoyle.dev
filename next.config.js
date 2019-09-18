@@ -8,6 +8,7 @@ const prod = process.env.NODE_ENV === 'production';
 // The actual Next.js configuration
 const nextConfig = {
   webpack(config) {
+    // Use 'raw-loader' for Markdown files
     config.module.rules.push({
       test: /\.md$/,
       use: 'raw-loader'

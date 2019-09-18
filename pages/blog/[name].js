@@ -2,6 +2,7 @@ import '../../src/styles.scss';
 import fetch from 'isomorphic-unfetch';
 import ReactMarkdown from 'react-markdown';
 
+import { sanitizePostName } from '../../src/core/utils/posts';
 import BlogLayout from '../../src/components/site-layouts/blog';
 
 const BlogPost = props => {
@@ -10,29 +11,27 @@ const BlogPost = props => {
 
   return (
     <BlogLayout pageTitle={title}>
-      <h1>{title}</h1>
-      <p>{content}</p>
+      <ReactMarkdown
+        source={content}
+        escapeHtml={false}
+      />
     </BlogLayout>
   );
 };
 
 BlogPost.getInitialProps = async function(context) {
+  debugger;
   const { name } = context.query;
-  const res = await fetch(`http://localhost:3000/api/blog-posts`);
-  const posts = await res.json();
+  const postName = sanitizePostName(name);
 
-  let thisPost;
-  posts.forEach((post) => {
-    if (post.name === name) {
-      thisPost = post;
-    }
-  });
+  const res = await fetch(`http://localhost:3000/api/blog-posts/${postName}`);
+  const post = await res.json();
 
-  if (!thisPost) {
-    throw new Error(`No post available with name "${name}"`);
+  if (!postName) {
+    throw new Error(`No post available with name "${postName}"`);
   }
 
-  return { post: thisPost };
+  return { post };
 };
 
 export default BlogPost;

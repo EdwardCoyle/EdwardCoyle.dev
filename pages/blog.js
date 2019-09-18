@@ -22,15 +22,14 @@ function Blog(props) {
 }
 
 Blog.getInitialProps = async function ({ req }) {
-  const res = await fetch(`http://localhost:3000/api/blog-posts`);
+  const res = await fetch(`http://localhost:3000/api/blog-posts/index`);
   const data = await res.json();
+  const posts = data.posts;
 
-  console.log(`(${data.length}) records were fetched`);
+  console.log(`(${posts.length}) posts were fetched`);
   debugger;
 
-  return {
-    posts: data
-  };
+  return { posts };
 };
 
 export default Blog;

@@ -8,10 +8,10 @@
     "clean": "npx rimraf .next/",
     "copy:modules": "node ./scripts/copy-modules",
     "deploy": "./scripts/deploy.sh",
-    "dev": "NODE_ENV=\"development\" npx next",
-    "dev:brk": "NODE_ENV=\"development\" NODE_OPTIONS=\"--inspect-brk\" npx next",
+    "dev": "NODE_ENV=\"development\" node server.js",
+    "dev:brk": "NODE_ENV=\"development\" NODE_OPTIONS=\"--inspect-brk\" node server.js",
     "export": "npx next export",
-    "start": "npx next start"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
