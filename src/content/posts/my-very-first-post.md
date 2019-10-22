@@ -1,3 +1,9 @@
+---
+id: 0
+name: "my-very-first-post"
+title: "My Very First Post"
+---
+
 # My Very First Post
 
 This is my very first post!  I am really excited to begin blogging about all things Software Engineering, etc.
@@ -24,4 +30,4 @@ export default 'Sup.';
 
 ## More Info
 
-Contact me at hello@edwardcoyle.dev
+Contact me at [hello@edwardcoyle.dev](mailto:hello@edwardcoyle.dev)

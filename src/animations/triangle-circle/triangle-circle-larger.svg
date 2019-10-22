@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+	<style type="text/css">
+ 		.triangle > * {
+ 			fill: #9088ff;
+ 		}
+ 	</style>
+	<symbol class="triangle" id="triangle-shape" viewBox="-3.1 -2.7 6.2 5.4">
+		<path d="M3.1,2.6L0.1-2.7C0-2.7,0-2.7-0.1-2.7l-3.1,5.3c0,0.1,0,0.1,0.1,0.1h6.1C3.1,2.7,3.1,2.7,3.1,2.6z"/>
+	</symbol>
+
+	<g class="triangle-ring" id="triangle-ring">
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-4.3741 0 0 4.3741 256 22.3333)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-4.2904 -0.8515 -0.8515 4.2904 301.4899 26.8041)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-4.0426 -1.6705 -1.6705 4.0426 345.2391 40.0452)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-3.64 -2.4256 -2.4256 3.64 385.5735 61.55)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-3.0982 -3.0878 -3.0878 3.0982 420.9497 90.4956)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-2.4378 -3.6318 -3.6318 2.4378 450.0139 125.7744)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-1.6841 -4.0369 -4.0369 1.6841 471.654 166.0363)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-0.8659 -4.2876 -4.2876 0.8659 485.0419 209.7408)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-1.468524e-02 -4.3741 -4.3741 1.468524e-02 489.6653 255.2155)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(0.8371 -4.2933 -4.2933 -0.8371 485.3474 300.7202)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(1.6569 -4.0482 -4.0482 -1.6569 472.2532 344.5136)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(2.4133 -3.6481 -3.6481 -2.4133 450.8839 384.92)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(3.0774 -3.1085 -3.1085 -3.0774 422.0573 420.3931)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(3.6236 -2.4499 -2.4499 -3.6236 386.8763 449.5756)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(4.0313 -1.6976 -1.6976 -4.0313 346.6872 471.3508)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(4.2846 -0.8803 -0.8803 -4.2846 303.0279 484.8853)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(4.374 -2.937032e-02 -2.937032e-02 -4.374 257.569 489.6614)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(4.2961 0.8227 0.8227 -4.2961 212.0501 485.4962)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(4.0537 1.6433 1.6433 -4.0537 168.2129 472.5492)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(3.6562 2.4011 2.4011 -3.6562 127.735 451.3157)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(3.1188 3.0669 3.0669 -3.1188 92.1653 422.6082)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(2.4621 3.6154 3.6154 -2.4621 62.8649 387.5254)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(1.7111 4.0255 4.0255 -1.7111 40.9549 347.4097)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(0.8947 4.2816 4.2816 -0.8947 27.2738 303.796)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(4.405506e-02 4.3739 4.3739 -4.405506e-02 22.3452 258.3534)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-0.8083 4.2988 4.2988 0.8083 26.3575 212.8208)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-1.6297 4.0592 4.0592 1.6297 39.1573 168.9404)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-2.3888 3.6643 3.6643 2.3888 60.2548 128.3915)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-3.0564 3.1291 3.1291 3.0564 88.8426 92.7256)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-3.6071 2.4742 2.4742 3.6071 123.8269 63.3075)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-4.0198 1.7246 1.7246 4.0198 163.8689 41.263)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="6.2" height="5.4" x="-3.1" y="-2.7" transform="matrix(-4.2786 0.9091 0.9091 4.2786 207.4363 27.4356)" overflow="visible"/>
+	</g>
+</svg>

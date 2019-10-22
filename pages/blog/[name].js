@@ -20,10 +20,8 @@ const BlogPost = props => {
 };
 
 BlogPost.getInitialProps = async function(context) {
-  debugger;
   const { name } = context.query;
   const postName = sanitizePostName(name);
-
   const res = await fetch(`http://localhost:3000/api/blog-posts/${postName}`);
   const post = await res.json();
 

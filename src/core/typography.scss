@@ -16,3 +16,13 @@ h5,
 h6 {
   color: $header-font-color;
 }
+
+h1 {
+  &::after {
+    border-bottom: 2px solid $highlight-red;
+    content: ' ';
+    display: block;
+    text-shadow: 0 0 5px $header-text-shadow-color;
+    width: 100%;
+  }
+}

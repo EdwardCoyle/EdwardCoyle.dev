@@ -2,9 +2,9 @@ import SiteHead from '../site-head';
 
 // Gutters for layout on this page
 const layoutCSS = {
-  'max-width': '1280px',
+  'maxWidth': '1280px',
   'margin': '0 auto',
-  'min-height': '20px'
+  'minHeight': '20px'
 };
 
 const WorkSampleLayout = props => (

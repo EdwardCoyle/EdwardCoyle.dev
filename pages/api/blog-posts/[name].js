@@ -1,6 +1,10 @@
 import { sanitizePostName } from '../../../src/core/utils/posts';
 import { posts } from '../../../src/data/posts';
 
+// Node libs
+const fs = require('fs');
+const path = require('path');
+
 export default function handle(req, res) {
   const postName = sanitizePostName(req.query.name);
 
@@ -12,13 +16,23 @@ export default function handle(req, res) {
     }
   });
 
-  // Find the corresponding Markdown file
-  debugger;
-  const postMarkdown = require(`../../../src/content/posts/${postName}.md`);
-  if (postMarkdown && typeof postMarkdown.default === 'string') {
-    postData.content = postMarkdown.default;
-    res.status(200).json(postData);
-  } else {
+  function missingFileError() {
     res.status(404).json({ error: 'No corresponding Markdown file found.' });
+  }
+
+  const mdFilePath = path.resolve('src', 'content', 'posts', `${postName}.md`);
+  try {
+    if (fs.existsSync(mdFilePath)) {
+      // Find the corresponding Markdown file
+      const postMarkdown = fs.readFileSync(mdFilePath, 'utf8');
+      if (typeof postMarkdown === 'string') {
+        postData.content = postMarkdown;
+        res.status(200).json(postData);
+      } else {
+        missingFileError();
+      }
+    }
+  } catch(err) {
+    missingFileError();
   }
 }
