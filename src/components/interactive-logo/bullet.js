@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import anime from 'animejs';
 
 /**
- * These are the animated bullet points used on the Masthead.
- * TODO: convert to straight-up React component
+ * These are the animated bullet points used on the Interactive Logo.
  */
-class MastheadBullet extends React.Component {
+class InteractiveLogoBullet extends React.Component {
   constructor(props) {
     super(props);
 
@@ -43,7 +42,7 @@ class MastheadBullet extends React.Component {
 
   render() {
     const hoveredClass = this.state.scale ? 'is-hovered' : '';
-    const fullClassName = `masthead--bullet ${hoveredClass}`;
+    const fullClassName = `interactive-logo--bullet ${hoveredClass}`;
 
 
     return (
@@ -58,6 +57,4 @@ class MastheadBullet extends React.Component {
   }
 };
 
-MastheadBullet
-
-export default MastheadBullet;
+export default InteractiveLogoBullet;

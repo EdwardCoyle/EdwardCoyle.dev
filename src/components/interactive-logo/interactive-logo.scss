@@ -1,4 +1,4 @@
-.masthead {
+.interactive-logo {
   display: none;
   align-self: center;
   margin-top: 0;
@@ -13,14 +13,14 @@
   }
 }
 
-.masthead--heading {
+.interactive-logo--heading {
   font-size: 8vh;
   letter-spacing: .5vh;
   margin-top: 0;
   margin-bottom: 2vh;
 }
 
-.masthead--bullets {
+.interactive-logo--bullets {
   align-items: center;
   display: flex;
   color: $body-font-color;
@@ -28,12 +28,12 @@
   min-height: 5vh;
 }
 
-.masthead--bullet {
+.interactive-logo--bullet {
   display: inline-block;
   cursor: pointer;
 }
 
-.masthead--spacer {
+.interactive-logo--spacer {
   fill: currentColor;
   height: 1.5vh;
   margin: 0 2vh;

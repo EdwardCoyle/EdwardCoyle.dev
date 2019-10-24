@@ -2,10 +2,10 @@ import React from 'react';
 import anime from 'animejs';
 
 import EdLogoComponent from '../../animations/ed/ed';
-import MastheadBullet from './bullet';
-import MastheadSpacer from './spacer';
+import InteractiveLogoBullet from './bullet';
+import InteractiveLogoSpacer from './spacer';
 
-class Masthead extends React.Component {
+class InteractiveLogo extends React.Component {
   constructor(props) {
     super(props);
 
@@ -32,21 +32,21 @@ class Masthead extends React.Component {
 
   render () {
     const show = this.state.loaded ? ' is-displayed' : '';
-    const fullClassName = `masthead${show}`;
+    const fullClassName = `interactive-logo${show}`;
     return (
       <div ref={this.containerElem} className={fullClassName}>
         <EdLogoComponent />
-        <h1 className="masthead--heading">Edward Coyle</h1>
-        <div className="masthead--bullets">
-          <MastheadBullet>Developer</MastheadBullet>
-          <MastheadSpacer />
-          <MastheadBullet>Designer</MastheadBullet>
-          <MastheadSpacer />
-          <MastheadBullet>Animator</MastheadBullet>
+        <h1 className="interactive-logo--heading">Edward Coyle</h1>
+        <div className="interactive-logo--bullets">
+          <InteractiveLogoBullet>Developer</InteractiveLogoBullet>
+          <InteractiveLogoSpacer />
+          <InteractiveLogoBullet>Designer</InteractiveLogoBullet>
+          <InteractiveLogoSpacer />
+          <InteractiveLogoBullet>Animator</InteractiveLogoBullet>
         </div>
       </div>
     );
   }
 }
 
-export default Masthead;
+export default InteractiveLogo;

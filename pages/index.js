@@ -4,7 +4,7 @@ import Anime from 'react-anime';
 
 import BackgroundContainer from '../src/components/background-container';
 import HomepageLayout from '../src/components/site-layouts/homepage';
-import Masthead from '../src/components/masthead/masthead';
+import InteractiveLogo from '../src/components/interactive-logo/main';
 import SVGIcons from '../src/components/svg-icons';
 import SVGTriangleCircle from '../src/animations/triangle-circle/triangle-circle';
 
@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <HomepageLayout>
       <SVGIcons />
-      <Masthead />
+      <InteractiveLogo />
       <BackgroundContainer>
         <Anime
           delay={randomDelay()}
