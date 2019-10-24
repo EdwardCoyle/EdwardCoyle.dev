@@ -1,15 +1,25 @@
-const smallerTriangleSVG = require('./triangle-circle.svg');
-const largerTriangelSVG = require('./triangle-circle-larger.svg');
+import React from 'react';
 
-function SVGTriangleCircle(props) {
-  const shapeSVG = props.reverse ? largerTriangelSVG : smallerTriangleSVG;
+const smallerTriangleSVG = require('./triangle-circle.svg');
+const largerTriangleSVG = require('./triangle-circle-larger.svg');
+
+// NOTE: React.forwardRef is needed to make component instances work with animations:
+// https://github.com/hyperfuse/react-anime/issues/52
+const SVGTriangleCircle = React.forwardRef((props, ref) => {
+  const shapeSVG = props.reverse ? largerTriangleSVG : smallerTriangleSVG;
 
   return (
-    <>
+    <div ref={ref} className="triangle-circle--container">
       <object className="svg-animation triangle-circle" type="image/svg+xml" data={shapeSVG} role="img" aria-label="triangle-circle animation">
         <div role="img" className="triangle-circle" aria-label="triangle-circle animation"></div>
       </object>
       <style jsx>{`
+        .triangle-circle--container {
+          height: 100%;
+          position: absolute;
+          width: 100%;
+        }
+
         .triangle-circle {
           ${ props.background ? `position: absolute;` : '' }
 
@@ -38,8 +48,8 @@ function SVGTriangleCircle(props) {
           `}
         }
       `}</style>
-    </>
+    </div>
   );
-}
+});
 
 export default SVGTriangleCircle;

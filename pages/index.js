@@ -1,53 +1,46 @@
 import '../src/styles.scss';
 
+import Anime from 'react-anime';
+
 import BackgroundContainer from '../src/components/background-container';
-import EdLogoComponent from '../src/animations/ed/ed';
 import HomepageLayout from '../src/components/site-layouts/homepage';
+import Masthead from '../src/components/masthead/masthead';
+import SVGIcons from '../src/components/svg-icons';
 import SVGTriangleCircle from '../src/animations/triangle-circle/triangle-circle';
+
+function randomDuration() {
+  const min = 800;
+  const max = 1200;
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+function randomDelay() {
+  const min = 500;
+  const max = 700;
+  return Math.floor(Math.random() * (max - min)) + min;
+}
 
 const Home = () => {
   return (
     <HomepageLayout>
-      <div className="masthead">
-        <EdLogoComponent />
-        <h1>Edward Coyle</h1>
-        <p className="masthead--bullets">
-          <span>Developer</span>
-          <span>Designer</span>
-          <span>Animator</span>
-        </p>
-        <p>Website Coming Soon</p>
-      </div>
+      <SVGIcons />
+      <Masthead />
       <BackgroundContainer>
-        <SVGTriangleCircle background={true} reverse={true}/>
-        <SVGTriangleCircle background={true} />
+        <Anime
+          delay={randomDelay()}
+          duration={randomDuration()}
+          easing="easeOutElastic"
+          scale={[0, 1]}>
+          <SVGTriangleCircle background={true} reverse={true}/>
+        </Anime>
+        <Anime
+          delay={randomDelay()}
+          duration={randomDuration()}
+          easing="easeOutElastic"
+          scale={[0, 1]}>
+          <SVGTriangleCircle background={true} />
+        </Anime>
       </BackgroundContainer>
-
-      <style jsx>
-      {`
-        .masthead {
-          align-self: center;
-          margin-top: 0;
-          text-align: center;
-        }
-
-        .masthead h1 {
-          font-size: 8vh;
-          margin-top: 0;
-        }
-
-        .masthead--bullets {
-          color: $body-font-color;
-          font-size: 4vh;
-        }
-
-        .masthead--bullets span:not(:last-child)::after {
-          color: inherit;
-          content: ' • ';
-          pointer-events: none;
-        }
-      `}
-      </style>
     </HomepageLayout>
   );
 };

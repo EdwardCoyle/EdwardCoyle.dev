@@ -1,10 +1,12 @@
 ---
 id: 0
+author: "Ed Coyle"
+authorURL: "https//edwardcoyle.dev"
+email: "hello@edwardcoyle.dev"
+date: "2019-10-22"
 name: "my-very-first-post"
 title: "My Very First Post"
 ---
-
-# My Very First Post
 
 This is my very first post!  I am really excited to begin blogging about all things Software Engineering, etc.
 

@@ -1,0 +1,42 @@
+.masthead {
+  display: none;
+  align-self: center;
+  margin-top: 0;
+  text-align: center;
+
+  .ed-logo {
+    max-width: 480px;
+  }
+
+  &.is-displayed {
+    display: block;
+  }
+}
+
+.masthead--heading {
+  font-size: 8vh;
+  letter-spacing: .5vh;
+  margin-top: 0;
+  margin-bottom: 2vh;
+}
+
+.masthead--bullets {
+  align-items: center;
+  display: flex;
+  color: $body-font-color;
+  font-size: 3vh;
+  min-height: 5vh;
+}
+
+.masthead--bullet {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.masthead--spacer {
+  fill: currentColor;
+  height: 1.5vh;
+  margin: 0 2vh;
+  pointer-events: none;
+  width: 1.5vh;
+}

@@ -1,11 +1,12 @@
 // ====================================
-// Typography
+// Typography (Basic)
 // ====================================
 
 body {
   background-color: $body-bg-color;
   color: $body-font-color;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Aleo', sans-serif;
+  font-weight: 300;
 }
 
 h1,
@@ -15,6 +16,7 @@ h4,
 h5,
 h6 {
   color: $header-font-color;
+  font-family: 'Blinker', sans-serif;
 }
 
 h1 {
@@ -25,4 +27,38 @@ h1 {
     text-shadow: 0 0 5px $header-text-shadow-color;
     width: 100%;
   }
+}
+
+// ====================================
+// Typography (Links)
+// ====================================
+
+a {
+  @include vp-transition(color 100ms linear);
+  color: $mid-red;
+
+  &:visited {
+    color: $dark-red;
+  }
+
+  &:hover,
+  &:focus {
+    color: $highlight-red;
+  }
+}
+
+// ====================================
+// Typography (Programming/Monospace)
+// ====================================
+
+code {
+  border: 1px solid $code-block-border-color;
+  border-radius: 1px;
+
+  background-color: $code-block-bg-color;
+  color: $code-block-font-color;
+
+  font-family: 'Fira Code','Consolas','Liberation Mono','Menlo',monospace;
+
+  padding: 10px;
 }

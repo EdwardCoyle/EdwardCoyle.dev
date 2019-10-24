@@ -14,6 +14,10 @@
 // Main Styles
 @import './core/main';
 
+// Individual Pages
+@import './core/post';
+@import './components/masthead/masthead';
+
 // SVG Animtions
 // NOTE: These aren't included in the build because they are inlined in each SVG Animation,
 // but they are currently documented here with an eventual TODO of automating the inline process.

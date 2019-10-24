@@ -8,7 +8,7 @@ export function sanitizePostName(postName) {
   ];
 
   let str = postName.replace(/[^\w\s-]/gi, '').toLowerCase();
-  str = str.split(/\s-/gi);
+  str = str.split(/[\s|-]/gi);
   str = str.filter((word) => {
     return word !== '' && JUNK_WORDS.indexOf(word) === -1;
   });

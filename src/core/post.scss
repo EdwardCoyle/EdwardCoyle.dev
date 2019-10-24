@@ -1,0 +1,29 @@
+// ====================================
+// Blog Post Styles
+// ====================================
+
+.post-avatar {
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 20px;
+  max-height: 72px;
+  max-width: 72px;
+  overflow: hidden;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.post-details {
+  display: flex;
+}
+
+.post-info > * {
+  line-height: 1.5rem;
+}
+
+.post-date {
+
+}
