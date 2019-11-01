@@ -3,7 +3,7 @@ import anime from 'animejs';
 
 import EdLogoComponent from '../../animations/ed/ed';
 import InteractiveLogoBullet from './bullet';
-import InteractiveLogoSpacer from './spacer';
+import LogoSpacer from '../logo/spacer';
 
 class InteractiveLogo extends React.Component {
   constructor(props) {
@@ -39,9 +39,9 @@ class InteractiveLogo extends React.Component {
         <h1 className="interactive-logo--heading">Edward Coyle</h1>
         <div className="interactive-logo--bullets">
           <InteractiveLogoBullet>Developer</InteractiveLogoBullet>
-          <InteractiveLogoSpacer />
+          <LogoSpacer />
           <InteractiveLogoBullet>Designer</InteractiveLogoBullet>
-          <InteractiveLogoSpacer />
+          <LogoSpacer />
           <InteractiveLogoBullet>Animator</InteractiveLogoBullet>
         </div>
       </div>

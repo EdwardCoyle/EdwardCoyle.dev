@@ -1,4 +1,4 @@
-const shapesSVG = require('./ed-logo-02.svg');
+const shapesSVG = require('./ed-logo-01.svg');
 
 function EdLogoComponent() {
   return (

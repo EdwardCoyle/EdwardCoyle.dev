@@ -1,0 +1,44 @@
+// Masthead Styles
+// =================================================== /
+
+.masthead {
+  align-items: center;
+  background-color: $masthead-bg-color;
+  border-bottom: 1px solid $masthead-border-color;
+  display: flex;
+  height: 128px;
+  padding: 0 36px;
+
+  .ed-logo {
+    height: 96px;
+    width: 96px;
+  }
+
+  .logo--spacer {
+    height: 8px;
+    margin: 0 10px;
+    width: 8px;
+  }
+}
+
+.masthead--logo {
+  margin: 0 12px;
+}
+
+.masthead--heading {
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.masthead--bullets {
+  align-items: center;
+  display: flex;
+  color: $body-font-color;
+  font-size: 18px;
+  margin-top: 12px;
+
+  .icon {
+    fill: $body-font-color;
+  }
+}

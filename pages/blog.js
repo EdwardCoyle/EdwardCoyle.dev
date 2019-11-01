@@ -1,7 +1,7 @@
 import '../src/styles.scss';
 import fetch from 'isomorphic-unfetch';
 
-import BlogLayout from '../src/components/site-layouts/blog';
+import BlogListLayout from '../src/components/site-layouts/blog-list';
 import PostNavLink from '../src/components/nav-posts/link';
 
 function Blog(props) {
@@ -10,14 +10,14 @@ function Blog(props) {
   ));
 
   return (
-    <BlogLayout pageTitle="Blog Posts Index">
+    <BlogListLayout pageTitle="Blog Posts Index">
       <h1>Blog Posts:</h1>
       <nav className="main-site-nav">
-        <ul>
+        <ul className="post-links">
           {postNavLinks}
         </ul>
       </nav>
-    </BlogLayout>
+    </BlogListLayout>
   );
 }
 

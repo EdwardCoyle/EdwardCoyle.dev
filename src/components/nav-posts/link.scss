@@ -1,0 +1,35 @@
+// Post Links List Component
+// =================================================== /
+.post-links {
+  padding-left: 0;
+}
+
+.post-link {
+  background-color: $postnav-bg-color;
+  border-radius: 2px;
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.post-link--avatar {
+  background-color: $postnav-avatar-bg-color;
+  border-color: $postnav-avatar-border-color;
+  border-radius: 2px;
+  display: block;
+  margin-bottom: 10px;
+  min-height: 180px;
+}
+
+.post-link--details {
+
+}
+
+.post-link--date {
+
+}
+
+.post-link--url {
+  font-size: 4vh;
+}
