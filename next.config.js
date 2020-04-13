@@ -14,7 +14,8 @@ const nextConfig = {
       use: 'raw-loader'
     });
     return config;
-  }
+  },
+  assetPrefix: prod ? 'https://edwardcoyle.github.io/EdwardCoyle.dev/' : ''
 };
 
 // Always include these plugins

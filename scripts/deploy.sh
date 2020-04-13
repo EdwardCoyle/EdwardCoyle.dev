@@ -30,7 +30,7 @@ npx next export
 touch out/.nojekyll
 touch out/CNAME
 mkdir out/static
-cp -r static/* out/static/
+cp -r public/* out/static/
 echo "edwardcoyle.dev" >> out/CNAME
 git add out/
 git commit -m "Deploy '/out' folder at ${GIT_BRANCH} to 'gh-pages' branch"
