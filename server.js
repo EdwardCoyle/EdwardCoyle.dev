@@ -11,12 +11,14 @@
 // ============================================================================
 const { createServer } = require('http');
 const { parse } = require('url');
+const chalk = require('chalk');
 const next = require('next');
 
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
+console.log(`Starting EdwardCoyle.io ${process.env.NODE_ENV} server...`);
 app.prepare().then(() => {
   createServer((req, res) => {
     // Be sure to pass `true` as the second argument to `url.parse`.
@@ -27,6 +29,6 @@ app.prepare().then(() => {
     handle(req, res, parsedUrl);
   }).listen(3000, err => {
     if (err) throw err;
-    console.log('> Ready on http://localhost:3000');
+    console.log(`[ ${chalk.yellow('server')} ] Ready on http://localhost:3000`);
   })
 });

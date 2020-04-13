@@ -1,4 +1,5 @@
 import '../src/styles.scss';
+import chalk from 'chalk';
 import fetch from 'isomorphic-unfetch';
 
 import BlogListLayout from '../src/components/site-layouts/blog-list';
@@ -25,7 +26,7 @@ Blog.getInitialProps = async function ({ req }) {
   const res = await fetch(`http://localhost:3000/api/blog-posts/index`);
   const posts = await res.json();
 
-  console.log(`(${posts.length}) posts were fetched`);
+  console.log(`[ ${chalk.yellow('server')} ] (${posts.length}) posts were fetched.`);
 
   return { posts };
 };

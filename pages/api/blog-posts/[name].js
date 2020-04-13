@@ -6,7 +6,7 @@ const fm = require('front-matter');
 const fs = require('fs');
 const path = require('path');
 
-export default function handle(req, res) {
+export default async (req, res) => {
   const postName = sanitizePostName(req.query.name);
 
   function missingFileError() {
