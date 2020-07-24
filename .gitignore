@@ -1,4 +1,13 @@
+# NPM
 node_modules/
-assets/
+
+# Next.js
 .next/
 out/
+
+# Mac OS
+.DS_Store
+**/.DS_Store
+
+# My personal project-level stuff that doesn't get versioned
+assets/

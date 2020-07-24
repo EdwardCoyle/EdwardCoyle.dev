@@ -19,6 +19,7 @@ const app = next({ dev });
 const handle = app.getRequestHandler();
 
 console.log(`Starting EdwardCoyle.io ${process.env.NODE_ENV} server...`);
+
 app.prepare().then(() => {
   createServer((req, res) => {
     // Be sure to pass `true` as the second argument to `url.parse`.

@@ -42,6 +42,10 @@
   - AWS/Azure
 - Replace all hardcoded URLs for lambda pages to get the basepath programatically (currently hardcoded to http://localhost:3000)
 
-*Fun Stuff*
+*Fun Stuff - Edmails*
+- [ ] Research conversion of AMR to OGG via FFMPEG on the server automatically. [This](https://stackoverflow.com/questions/17643261/stream-as-html5-audio-or-convert-amr-to-ogg) and [this]() were good resources.
+- [ ] Add audio wave image generated based on waveform.
+
+*Fun Stuff - Other*
 - [ ] Hook into the Runkeeper API and see if we can use that on the site for tracking my runs
 - [ ] Ed character animation for the landing page

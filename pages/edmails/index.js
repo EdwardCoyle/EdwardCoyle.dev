@@ -3,15 +3,23 @@ import chalk from 'chalk';
 import fetch from 'isomorphic-unfetch';
 
 import BlogListLayout from '../../src/components/site-layouts/blog-list';
-import PostNavLink from '../../src/components/nav-posts/link';
+import AudioWave from '../../src/components/audio-wave/audio-wave';
 
 function Edmails(props) {
-  const edmails = props.posts.map(post => (
-    <PostNavLink key={post.id} id={post.id} name={post.name} title={post.title} />
+  debugger;
+
+  const edmails = props.edmails.map(edmail => (
+    <AudioWave
+      key={edmail.id}
+      imgURL={edmail.imgURL}
+      name={edmail.name}
+      date={edmail.fileInfo.birthtime}
+      path={edmail.path}
+    />
   ));
 
   return (
-    <BlogListLayout pageTitle="Blog Posts Index">
+    <BlogListLayout pageTitle="Edmails Index">
       <h1>Edmails</h1>
       <nav className="main-site-nav">
         <ul className="edmail-list">
@@ -23,10 +31,12 @@ function Edmails(props) {
 }
 
 Edmails.getInitialProps = async function ({ req }) {
-  const res = await fetch(`http://localhost:3000/api/edmails/index`);
+  const res = await fetch(`http://localhost:3000/api/edmails`);
+
+  debugger;
   const edmails = await res.json();
 
-  console.log(`[ ${chalk.yellow('server')} ] (${posts.length}) posts were fetched.`);
+  console.log(`[ ${chalk.yellow('server')} ] (${edmails.length}) edmails were fetched.`);
 
   return { edmails };
 };
