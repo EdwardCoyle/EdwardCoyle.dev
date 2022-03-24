@@ -1,12 +1,12 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
+	import EdLogo from '../EdLogo/EdLogo.svelte';
 </script>
 
 <header>
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
+		<a class="corner--link" href="https://EdwardCoyle.dev">
+			<EdLogo />
 		</a>
 	</div>
 
@@ -37,6 +37,7 @@
 	header {
 		display: flex;
 		justify-content: space-between;
+		z-index: 1;
 	}
 
 	.corner {
@@ -52,16 +53,20 @@
 		height: 100%;
 	}
 
-	.corner img {
-		width: 2em;
-		height: 2em;
+	.corner--link {
+		padding-block-start: 8px;
+		padding-block-end: 8px;
+		padding-inline-start: 8px;
+		padding-inline-end: 8px;
+		width: 2.5em;
+		height: 2.5em;
 		object-fit: contain;
 	}
 
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		--background: var(--heading-bg-color);
 	}
 
 	svg {

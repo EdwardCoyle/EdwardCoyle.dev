@@ -19,26 +19,35 @@
 </svelte:head>
 
 <div class="content">
-	<h1>About this app</h1>
+	<h1>Hi! My Name's Ed.<br />I create things on the web!</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+		Many of my favorite mediums combine in this endless space to form beautiful-yet-functional, entertaining experiences.  I've spent much of my life immersed in crafting these experiences, ranging from architecting code to rendering ideas in illustration, and finally animating them to life.
 	</p>
 
-	<!-- TODO lose the @next! -->
-	<pre>npm init svelte@next</pre>
+	<h1>Animator</h1>
 
 	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+		I'm a graduate of the Art Institute of Philadelphia's Media arts and Animation program, where I trained as a 3D Animator.  I gained a lot of knowledge on not just animation technique, but learned much about how modern animation software operates.  I would often build 3D models and character skeletons and use code to rig and animate them in software like 3D Studio Max.
 	</p>
 
 	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
+		After school, I lived the life of a freelancer, working primarily as a motion graphics artist for several advertising agencies in the Philadelphia region.  I would also work alongside close friends attempting to break into the mobile gaming market as the lead animator and web developer at <a href="http://www.thegamespage.com">The Games Page</a>, where I worked on animating characters and designing levels for several Desktop, HTML5 and iOS games.
 	</p>
+
+	<h1>Developer</h1>
+
+	<p>
+		After starting a full time job with my original title being "graphic designer", I had the opportunity at <a href="http://www.officepracticum">Office Practicum</a> to learn the ropes of working on the Front End, developing secure patient portals for Pediatricians.  I worked on the development and maintenance of multiple SaaS products, making my best attempt at making them beautiful and useful.
+	</p>
+
+	<p>
+		In the summer of 2014, I had the opportunity to expand my front end skills helping <a href="http://design.infor.com">Infor Design</a> work on their latest iteration of the company's Design System.  Since I've joined, we've successfully released and maintained a major version of the <a href="https://github.com/infor-design/enterprise">jQuery-based Design System</a>, while simultaneously building up a future <a href="https://github.com/infor-design/enterprise-wc">Web Component version</a> alongside.
+	</p>
+
+	<h1>Content Creator</h1>
+
+	<p>Sometimes for fun, I use my animation and post-production skills for <a href="http://twitch.tv/TheRealEddieJ">streaming on my Twitch channel</a>, where I'll often play my favorite video games or treat the audience to sketching sessions.</p>
 </div>
 
 <style>

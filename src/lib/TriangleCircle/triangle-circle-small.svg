@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+	<style type="text/css">
+		.triangle > * {
+			fill: #9088ff;
+		}
+	</style>
+
+	<symbol class="triangle" id="triangle-shape" viewBox="-4.7 -4.1 9.4 8.1">
+		<path d="M-4.7-3.9l4.6,8C0,4.1,0,4.1,0.1,4l4.6-8c0-0.1,0-0.1-0.1-0.1h-9.2C-4.7-4.1-4.7-4-4.7-3.9z"/>
+	</symbol>
+	<g class="triangle-ring" id="triangle-ring">
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(1 0 0 -1 256 10)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.9983 5.768395e-02 5.768395e-02 -0.9983 270.1902 10.4096)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.9933 0.1152 0.1152 -0.9933 284.3333 11.6371)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.985 0.1723 0.1723 -0.985 298.3819 13.6784)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.9735 0.2288 0.2288 -0.9735 312.2894 16.5266)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.9586 0.2846 0.2846 -0.9586 326.0094 20.1723)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.9406 0.3394 0.3394 -0.9406 339.4963 24.6034)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.9195 0.3931 0.3931 -0.9195 352.7052 29.8051)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.8953 0.4455 0.4455 -0.8953 365.5919 35.7601)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.8681 0.4964 0.4964 -0.8681 378.1138 42.4485)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.838 0.5456 0.5456 -0.838 390.2289 49.8481)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.8051 0.5931 0.5931 -0.8051 401.8971 57.9342)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.7696 0.6385 0.6385 -0.7696 413.0793 66.68)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.7315 0.6819 0.6819 -0.7315 423.7385 76.0562)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.6909 0.7229 0.7229 -0.6909 433.8391 86.0316)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.6481 0.7616 0.7616 -0.6481 443.3474 96.5731)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.6031 0.7977 0.7977 -0.6031 452.2318 107.6455)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.556 0.8311 0.8311 -0.556 460.4628 119.2119)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.5072 0.8618 0.8618 -0.5072 468.0128 131.2339)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.4566 0.8897 0.8897 -0.4566 474.8568 143.6714)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.4045 0.9145 0.9145 -0.4045 480.9719 156.483)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.3511 0.9363 0.9363 -0.3511 486.3379 169.6259)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.2965 0.955 0.955 -0.2965 490.9367 183.0566)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.2409 0.9705 0.9705 -0.2409 494.7532 196.7301)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.1845 0.9828 0.9828 -0.1845 497.7745 210.601)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.1275 0.9918 0.9918 -0.1275 499.9908 224.6231)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(7.012311e-02 0.9975 0.9975 -7.012311e-02 501.3944 238.7497)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(1.246439e-02 0.9999 0.9999 -1.246439e-02 501.9809 252.9338)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-4.523583e-02 0.999 0.999 4.523583e-02 501.7482 267.128)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.1028 0.9947 0.9947 0.1028 500.6971 281.2852)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.16 0.9871 0.9871 0.16 498.8311 295.3582)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.2167 0.9762 0.9762 0.2167 496.1564 309.3001)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.2726 0.9621 0.9621 0.2726 492.6819 323.0645)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.3277 0.9448 0.9448 0.3277 488.4193 336.6056)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.3816 0.9243 0.9243 0.3816 483.3827 349.8783)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.4343 0.9008 0.9008 0.4343 477.5888 362.8383)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.4855 0.8742 0.8742 0.4855 471.0569 375.4425)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.5352 0.8448 0.8448 0.5352 463.8089 387.649)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.583 0.8125 0.8125 0.583 455.8689 399.417)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.6289 0.7775 0.7775 0.6289 447.2632 410.7074)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.6727 0.7399 0.7399 0.6727 438.0206 421.4826)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.7143 0.6999 0.6999 0.7143 428.1718 431.7067)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.7534 0.6575 0.6575 0.7534 417.7497 441.3457)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.7901 0.613 0.613 0.7901 406.7889 450.3675)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.8242 0.5664 0.5664 0.8242 395.3259 458.7419)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.8555 0.5179 0.5179 0.8555 383.399 466.4412)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.8839 0.4677 0.4677 0.8839 371.0478 473.4397)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9094 0.4159 0.4159 0.9094 358.3134 479.714)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9319 0.3628 0.3628 0.9319 345.2384 485.2433)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9513 0.3084 0.3084 0.9513 331.8661 490.0092)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9675 0.253 0.253 0.9675 318.2412 493.9959)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9804 0.1968 0.1968 0.9804 304.409 497.1899)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9902 0.1399 0.1399 0.9902 290.4156 499.5807)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9966 8.255137e-02 8.255137e-02 0.9966 276.3076 501.1604)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9997 2.492685e-02 2.492685e-02 0.9997 262.132 501.9236)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9995 -3.278068e-02 -3.278068e-02 0.9995 247.936 501.8678)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9959 -9.037904e-02 -9.037904e-02 0.9959 233.7668 500.9932)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.989 -0.1477 -0.1477 0.989 219.6716 499.3028)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9789 -0.2045 -0.2045 0.9789 205.6974 496.8021)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9654 -0.2606 -0.2606 0.9654 191.8908 493.4995)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9488 -0.3159 -0.3159 0.9488 178.2976 489.4059)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.929 -0.3701 -0.3701 0.929 164.9632 484.5351)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.9061 -0.423 -0.423 0.9061 151.932 478.9032)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.8802 -0.4746 -0.4746 0.8802 139.2473 472.529)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.8514 -0.5246 -0.5246 0.8514 126.9515 465.4337)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.8197 -0.5728 -0.5728 0.8197 115.0854 457.641)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.7853 -0.6192 -0.6192 0.7853 103.6886 449.1767)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.7482 -0.6634 -0.6634 0.7482 92.799 440.0691)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.7087 -0.7055 -0.7055 0.7087 82.4529 430.3485)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.6669 -0.7452 -0.7452 0.6669 72.6848 420.0474)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.6228 -0.7824 -0.7824 0.6228 63.5271 409.1999)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.5766 -0.817 -0.817 0.5766 55.0105 397.8422)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.5285 -0.8489 -0.8489 0.5285 47.1631 386.0121)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.4787 -0.878 -0.878 0.4787 40.0112 373.7491)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.4272 -0.9042 -0.9042 0.4272 33.5786 361.0939)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.3743 -0.9273 -0.9273 0.3743 27.8868 348.0888)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.3202 -0.9473 -0.9473 0.3202 22.9545 334.777)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.2651 -0.9642 -0.9642 0.2651 18.7984 321.2029)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.209 -0.9779 -0.9779 0.209 15.4322 307.4116)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-0.1522 -0.9883 -0.9883 0.1522 12.8672 293.4491)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-9.496681e-02 -0.9955 -0.9955 9.496681e-02 11.1118 279.3618)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(-3.738544e-02 -0.9993 -0.9993 3.738544e-02 10.172 265.1968)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(2.032044e-02 -0.9998 -0.9998 -2.032044e-02 10.0508 251.0012)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(7.795864e-02 -0.997 -0.997 -7.795864e-02 10.7487 236.8222)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.1353 -0.9908 -0.9908 -0.1353 12.2633 222.707)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.1923 -0.9813 -0.9813 -0.1923 14.5896 208.7028)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.2486 -0.9686 -0.9686 -0.2486 17.7199 194.856)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.304 -0.9527 -0.9527 -0.304 21.6437 181.2129)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.3585 -0.9335 -0.9335 -0.3585 26.3479 167.8188)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.4117 -0.9113 -0.9113 -0.4117 31.8169 154.7184)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.4636 -0.886 -0.886 -0.4636 38.0326 141.9553)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.5139 -0.8578 -0.8578 -0.5139 44.974 129.572)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.5626 -0.8268 -0.8268 -0.5626 52.6183 117.6097)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.6093 -0.7929 -0.7929 -0.6093 60.9398 106.1083)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.654 -0.7565 -0.7565 -0.654 69.911 95.106)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.6966 -0.7175 -0.7175 -0.6966 79.5018 84.6396)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.7368 -0.6761 -0.6761 -0.7368 89.6805 74.7438)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.7746 -0.6325 -0.6325 -0.7746 100.413 65.4516)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.8098 -0.5867 -0.5867 -0.8098 111.6636 56.794)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.8423 -0.539 -0.539 -0.8423 123.395 48.7999)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.872 -0.4896 -0.4896 -0.872 135.5679 41.4957)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.8988 -0.4384 -0.4384 -0.8988 148.1419 34.9058)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.9226 -0.3859 -0.3859 -0.9226 161.075 29.0523)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.9433 -0.332 -0.332 -0.9433 174.3243 23.9546)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.9609 -0.2771 -0.2771 -0.9609 187.8456 19.6296)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.9752 -0.2212 -0.2212 -0.9752 201.5939 16.0917)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.9864 -0.1645 -0.1645 -0.9864 215.5233 13.3528)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.9942 -0.1074 -0.1074 -0.9942 229.5876 11.422)" overflow="visible"/>
+		<use xlink:href="#triangle-shape" width="9.4" height="8.1" x="-4.7" y="-4.1" transform="matrix(0.9988 -4.983822e-02 -4.983822e-02 -0.9988 243.7398 10.3057)" overflow="visible"/>
+	</g>
+</svg>

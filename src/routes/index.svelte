@@ -3,30 +3,31 @@
 </script>
 
 <script>
-	import Counter from '$lib/Counter.svelte';
+	import { flip } from 'svelte/animate';
+	import SpinningEdLogo from '$lib/EdLogo/SpinningEdLogo.svelte';
+	import TriangleCircle from '$lib/TriangleCircle/TriangleCircle.svelte';
 </script>
 
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
 
+<section id="intro-animation">
+	<div class="centered-in-viewport">
+		<SpinningEdLogo />
+	</div>
+	<div class="centered-in-viewport"> 
+		<TriangleCircle style="large" speed="48s"></TriangleCircle>
+	</div>
+	<div class="centered-in-viewport">
+		<TriangleCircle style="small" speed="96s" rotation="right"></TriangleCircle>
+	</div>
+</section>
+
 <section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
-
-		to your new<br />SvelteKit app
+	<h1 class="audible">
+		EdwardCoyle.dev - Website of the software engineer and motion graphics artist Edward Coyle.
 	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
 </section>
 
 <style>
@@ -42,18 +43,29 @@
 		width: 100%;
 	}
 
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
+	/* Screen-reader only */
+	.audible {
+		position: absolute;
+		left: -10000px;
+		top: auto;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
 	}
 
-	.welcome img {
+	.centered-in-viewport {
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		justify-items: center;
+		align-items: center;
 		position: absolute;
-		width: 100%;
-		height: 100%;
+		left: 0;
 		top: 0;
-		display: block;
+		bottom: 0;
+		right: 0;
+		width: 100vw;
+		height: 100vh;
+		overflow: hidden;
 	}
 </style>
