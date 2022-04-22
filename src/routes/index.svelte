@@ -1,10 +1,11 @@
 <script context="module">
 	export const prerender = true;
+	import MediaQuery from '../lib/utils/MediaQuery.svelte';
 </script>
 
 <script>
-	import { flip } from 'svelte/animate';
 	import SpinningEdLogo from '$lib/EdLogo/SpinningEdLogo.svelte';
+	import Triangle from '$lib/Triangle/Triangle.svelte';
 	import TriangleCircle from '$lib/TriangleCircle/TriangleCircle.svelte';
 </script>
 
@@ -12,15 +13,43 @@
 	<title>Home</title>
 </svelte:head>
 
+<!--
+	Writes some styles based on media query conditions
+-->
+<MediaQuery query="(orientation: landscape)" let:matches>
+	{#if matches}
+	<style id="media">
+		.centered-in-viewport {
+			align-items: center;
+		}
+	</style>
+	{:else}
+	<style id="media">
+		.centered-in-viewport {
+			align-items: normal;
+		}
+	</style>
+	{/if}
+</MediaQuery>
+
 <section id="intro-animation">
-	<div class="centered-in-viewport">
-		<SpinningEdLogo />
-	</div>
 	<div class="centered-in-viewport"> 
 		<TriangleCircle style="large" speed="48s"></TriangleCircle>
 	</div>
 	<div class="centered-in-viewport">
 		<TriangleCircle style="small" speed="96s" rotation="right"></TriangleCircle>
+	</div>
+	<div class="centered-in-viewport">
+		<SpinningEdLogo />
+	</div>
+	<div class="centered-in-viewport">
+		<Triangle id="triangle-1"></Triangle>
+	</div>
+	<div class="centered-in-viewport">
+		<Triangle id="triangle-2"></Triangle>
+	</div>
+	<div class="centered-in-viewport">
+		<Triangle id="triangle-3"></Triangle>
 	</div>
 </section>
 
@@ -39,6 +68,10 @@
 		flex: 1;
 	}
 
+	#intro-animation {
+		pointer-events: none;
+	}
+
 	h1 {
 		width: 100%;
 	}
@@ -55,10 +88,7 @@
 
 	.centered-in-viewport {
 		display: flex;
-		align-content: center;
 		justify-content: center;
-		justify-items: center;
-		align-items: center;
 		position: absolute;
 		left: 0;
 		top: 0;

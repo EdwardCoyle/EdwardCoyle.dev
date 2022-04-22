@@ -21,6 +21,8 @@
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 	--box-shadow-callout: 0 0 6px var(--secondary-accent-color);
+	--content-area-width: 1024px;
+	--padding: 1rem;
 }
 
 body {
