@@ -1,35 +1,9 @@
 <script>
 	import { fade } from 'svelte/transition';
-	import { elasticOut } from 'svelte/easing';
+	import { spin, shiftColor } from '../animations.js';
 	import svg from './EdLogo.svg';
 
 	let visible = true;
-
-	function spin(node, { duration }) {
-		return {
-			duration,
-			css: (t) => {
-				const eased = elasticOut(t);
-				return `
-					transform: scale(${eased}) rotate(${eased * 1080}deg);
-				`
-			}
-		};
-	}
-
-	function shiftColor(node, { duration }) {
-		return {
-			duration,
-			css: (t) => {
-				return `
-					color: hsl(
-							${Math.trunc(t * 360)},
-							${Math.min(100, 1000 - 1000 * t)}%,
-							${Math.min(50, 500 - 500 * t)}%,
-					);`;
-			}
-		};
-	}
 </script>
 
 {#if visible}
@@ -68,6 +42,10 @@
 </div>
 
 <style>
+	svg {
+		fill: var(--text-color);
+	}
+
 	.container {
 		position: absolute;
 		left: 50%;

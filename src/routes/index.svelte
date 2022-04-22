@@ -1,5 +1,7 @@
 <script context="module">
 	export const prerender = true;
+	
+    import anime from 'animejs';
 	import MediaQuery from '../lib/utils/MediaQuery.svelte';
 </script>
 
@@ -49,13 +51,9 @@
 		<SpinningEdLogo />
 	</div>
 	<div class="centered-in-viewport">
-		<Triangle id="triangle-1"></Triangle>
-	</div>
-	<div class="centered-in-viewport">
-		<Triangle id="triangle-2"></Triangle>
-	</div>
-	<div class="centered-in-viewport">
-		<Triangle id="triangle-3"></Triangle>
+		<Triangle id="triangle-1" text="Animation"></Triangle>
+		<Triangle id="triangle-2" text="Development"></Triangle>
+		<Triangle id="triangle-3" text="Game Design"></Triangle>
 	</div>
 </section>
 
@@ -69,21 +67,16 @@
 	}
 
 	#intro-animation {
-		pointer-events: none;
+		position: absolute;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		height: 100vh;
+		width: 100vw;
 	}
 
 	h1 {
 		width: 100%;
-	}
-
-	/* Screen-reader only */
-	.audible {
-		position: absolute;
-		left: -10000px;
-		top: auto;
-		width: 1px;
-		height: 1px;
-		overflow: hidden;
 	}
 
 	.centered-in-viewport {
@@ -96,6 +89,6 @@
 		right: 0;
 		width: 100vw;
 		height: 100vh;
-		overflow: hidden;
+		/* overflow: hidden; */
 	}
 </style>
