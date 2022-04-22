@@ -32,6 +32,12 @@
 	{/if}
 </MediaQuery>
 
+<section>
+	<h1 class="audible">
+		EdwardCoyle.dev - Website of the software engineer and motion graphics artist Edward Coyle.
+	</h1>
+</section>
+
 <section id="intro-animation">
 	<div class="centered-in-viewport"> 
 		<TriangleCircle style="large" speed="48s"></TriangleCircle>
@@ -51,12 +57,6 @@
 	<div class="centered-in-viewport">
 		<Triangle id="triangle-3"></Triangle>
 	</div>
-</section>
-
-<section>
-	<h1 class="audible">
-		EdwardCoyle.dev - Website of the software engineer and motion graphics artist Edward Coyle.
-	</h1>
 </section>
 
 <style>
