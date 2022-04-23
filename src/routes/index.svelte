@@ -51,9 +51,9 @@
 		<SpinningEdLogo />
 	</div>
 	<div class="centered-in-viewport">
-		<Triangle id="triangle-1" text="Animation"></Triangle>
-		<Triangle id="triangle-2" text="Development"></Triangle>
-		<Triangle id="triangle-3" text="Game Design"></Triangle>
+		<Triangle href="/animation" id="triangle-1" text="Animation"></Triangle>
+		<Triangle href="/dev" id="triangle-2" text="Development"></Triangle>
+		<Triangle href="/games" id="triangle-3" text="Game Design"></Triangle>
 	</div>
 </section>
 
