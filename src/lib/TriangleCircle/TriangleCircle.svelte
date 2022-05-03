@@ -1,10 +1,16 @@
 <script>
+	import { fade } from 'svelte/transition';
+	import { spinFromPoint } from '../animations.js';
+
 	import largeSvg from './triangle-circle-large.svg';
     import smallSvg from './triangle-circle-small.svg';
     
+    export let animationDelay = 0;
+    export let animationDuration = 2500;
     export let style = 'large' // 'small'
     export let rotation = 'left';
     export let speed = '48s' // '96s'
+    export let visible = false;
 
     $: animationName = `spin-${rotation}`;
     $: animationSpeed = speed;
@@ -26,11 +32,17 @@
 	}
 </script>
 
+<svelte:options accessors={true}></svelte:options>
+
+{#if visible}
 <img 
     class="triangle-circle spin-{rotation}"
     src={style === 'large' ? largeSvg : smallSvg} 
     alt="Triangle Circle {style === 'large' ? "Large" : "Small"}"
-    use:cssVariables={{animationName, animationSpeed}} />
+    use:cssVariables={{animationName, animationSpeed}}
+    in:spinFromPoint={{ delay: animationDelay, duration: animationDuration }} 
+    out:spinFromPoint={{ delay: 0, duration: 500, reversed: true }} />
+{/if}
 
 <style>
     .spin-right {

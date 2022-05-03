@@ -1,13 +1,18 @@
 <script>
 	import { fade } from 'svelte/transition';
-	import { spin, shiftColor } from '../animations.js';
-	import svg from './EdLogo.svg';
+	import { spinFromPoint, shiftColor } from '../animations.js';
 
-	let visible = true;
+	export let animationDelay = 750;
+	export let animationDuration = 3000;
+	export let visible = false;
 </script>
 
+<svelte:options accessors={true}></svelte:options>
+
 {#if visible}
-	<div class="container" in:spin={{ duration: 3000 }} out:fade>
+	<div class="container" 
+		in:spinFromPoint={{ delay: animationDelay, duration: animationDuration }} 
+		out:spinFromPoint={{ delay: 0, duration: 300, reversed: true }}>
 		<svg
 			in:shiftColor={{duration: 3000}}
 			class="logo"
@@ -34,13 +39,6 @@
 	</div>
 {/if}
 
-<div class="controls">
-	<label>
-		<input type="checkbox" bind:checked={visible} />
-		Visible
-	</label>
-</div>
-
 <style>
 	svg {
 		fill: var(--text-color);
@@ -58,16 +56,5 @@
 		transform: translate(-50%, -50%);
 		width: 512px;
 		height: 512px;
-	}
-
-	.controls {
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		z-index: 1;
-		display: flex;
-		justify-content: center;
-		margin-block-end: 20px;
 	}
 </style>

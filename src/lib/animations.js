@@ -1,5 +1,5 @@
 
-import { elasticOut } from 'svelte/easing';
+import { elasticIn, elasticOut } from 'svelte/easing';
 
 /**
  * Simple spin animation
@@ -7,13 +7,18 @@ import { elasticOut } from 'svelte/easing';
  * @param {*} param1 
  * @returns 
  */
-export function spin(node, { duration }) {
+export function spinFromPoint(node, { delay = 0, duration = 0, reversed = false }) {
     return {
+        delay,
         duration,
         css: (t) => {
-            const eased = elasticOut(t);
+            const eased = reversed ? elasticIn(t) : elasticOut(t);
+            const currentOpacity = Number(getComputedStyle(node).opacity);
+            const newOpacity = ((currentOpacity * t / 100) + 1) * 100;
+
             return `
-					transform: scale(${eased}) rotate(${eased * 1080}deg);
+					transform: scale(${eased}) rotateZ(${eased * 1080}deg);
+                    opacity: ${newOpacity};
 				`
         }
     };
